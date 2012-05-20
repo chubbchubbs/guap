@@ -1,0 +1,212 @@
+2012/05/20 17:41:18 [error] [exception.CDbException] could not find driver
+2012/05/20 17:41:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in Z:\home\guap\framework\db\CDbConnection.php:388
+Stack trace:
+#0 Z:\home\guap\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\guap\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\guap\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\guap\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\guap\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\guap\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 Z:\home\guap\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 Z:\home\guap\www\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 Z:\home\guap\framework\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#19 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\guap\www\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2012/05/20 17:42:17 [error] [exception.CDbException] could not find driver
+2012/05/20 17:42:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in Z:\home\guap\framework\db\CDbConnection.php:388
+Stack trace:
+#0 Z:\home\guap\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\guap\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\guap\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\guap\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\guap\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\guap\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 Z:\home\guap\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 Z:\home\guap\www\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 Z:\home\guap\framework\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#19 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\guap\www\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/
+---
+2012/05/20 17:42:44 [error] [exception.CDbException] could not find driver
+2012/05/20 17:42:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in Z:\home\guap\framework\db\CDbConnection.php:388
+Stack trace:
+#0 Z:\home\guap\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\guap\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\guap\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\guap\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\guap\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\guap\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 Z:\home\guap\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 Z:\home\guap\www\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 Z:\home\guap\framework\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#19 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\guap\www\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/
+---
+2012/05/20 17:43:04 [error] [exception.CDbException] could not find driver
+2012/05/20 17:43:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in Z:\home\guap\framework\db\CDbConnection.php:388
+Stack trace:
+#0 Z:\home\guap\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\guap\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\guap\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\guap\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\guap\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\guap\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 Z:\home\guap\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 Z:\home\guap\www\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 Z:\home\guap\framework\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#19 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\guap\www\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/
+---
+2012/05/20 17:43:06 [error] [exception.CDbException] could not find driver
+2012/05/20 17:43:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in Z:\home\guap\framework\db\CDbConnection.php:388
+Stack trace:
+#0 Z:\home\guap\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\guap\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\guap\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\guap\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\guap\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\guap\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 Z:\home\guap\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 Z:\home\guap\www\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 Z:\home\guap\framework\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#19 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\guap\www\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/
+---
+2012/05/20 17:43:06 [error] [exception.CDbException] could not find driver
+2012/05/20 17:43:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in Z:\home\guap\framework\db\CDbConnection.php:388
+Stack trace:
+#0 Z:\home\guap\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\guap\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\guap\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\guap\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\guap\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\guap\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 Z:\home\guap\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 Z:\home\guap\www\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 Z:\home\guap\framework\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#19 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\guap\www\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/
+---
+2012/05/20 17:43:22 [error] [exception.CDbException] could not find driver
+2012/05/20 17:43:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in Z:\home\guap\framework\db\CDbConnection.php:388
+Stack trace:
+#0 Z:\home\guap\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\guap\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\guap\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\guap\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\guap\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\guap\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 Z:\home\guap\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 Z:\home\guap\www\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 Z:\home\guap\framework\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#19 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\guap\www\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/
+---
+2012/05/20 18:08:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\guap\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 Z:\home\guap\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 Z:\home\guap\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#6 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('data/admin')
+#9 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\guap\www\index.php(36): CApplication->run()
+#11 {main}
+REQUEST_URI=/data/admin
+---

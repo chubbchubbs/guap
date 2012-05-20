@@ -1,0 +1,208 @@
+2012/05/20 18:12:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\guap\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 Z:\home\guap\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 Z:\home\guap\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#6 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('data/admin')
+#9 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\guap\www\index.php(39): CApplication->run()
+#11 {main}
+REQUEST_URI=/data/admin
+---
+2012/05/20 18:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2012/05/20 18:18:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2012/05/20 18:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2012/05/20 18:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2012/05/20 18:20:36 [error] [php] Missing argument 1 for CController::render(), called in Z:\home\guap\www\protected\controllers\SiteController.php on line 12 and defined (Z:\home\guap\framework\web\CController.php:779)
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 Z:\home\guap\framework\web\CController.php(287): SiteController->runAction()
+#2 Z:\home\guap\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 Z:\home\guap\framework\web\CWebApplication.php(276): SiteController->run()
+#4 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 Z:\home\guap\www\index.php(39): CWebApplication->run()
+REQUEST_URI=/
+2012/05/20 18:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in Z:\home\guap\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('post/index')
+#1 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\guap\www\index.php(39): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/post/index
+HTTP_REFERER=http://guap/
+---
+2012/05/20 18:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('page')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('page')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/page?view=about
+HTTP_REFERER=http://guap/index.php
+---
+2012/05/20 18:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('contact')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('contact')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('site/contact')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/contact
+HTTP_REFERER=http://guap/index.php/site/page?view=about
+---
+2012/05/20 18:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('login')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('login')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://guap/index.php/site/contact
+---
+2012/05/20 18:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in Z:\home\guap\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\guap\framework\web\CController.php(271): CController->missingAction('login')
+#1 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('login')
+#2 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#3 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\guap\www\index.php(39): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://guap/index.php/site/login
+---
+2012/05/20 18:23:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'guap.users_profiles_fields' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `users_profiles_fields`.
+2012/05/20 18:23:18 [error] [exception.CDbException] exception 'CDbException' with message 'The table "users_profiles_fields" for active record class "ProfileField" cannot be found in the database.' in Z:\home\guap\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(ProfileField))
+#1 Z:\home\guap\www\protected\modules\user\models\ProfileField.php(39): CActiveRecord::model('ProfileField')
+#2 Z:\home\guap\www\protected\modules\user\views\user\view.php(20): ProfileField::model()
+#3 Z:\home\guap\framework\web\CBaseController.php(127): require('Z:\home\guap\ww...')
+#4 Z:\home\guap\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\guap\ww...', Array, true)
+#5 Z:\home\guap\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\guap\ww...', Array, true)
+#6 Z:\home\guap\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#7 Z:\home\guap\www\protected\modules\user\controllers\UserController.php(45): CController->render('view', Array)
+#8 Z:\home\guap\framework\web\actions\CInlineAction.php(50): UserController->actionView()
+#9 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 Z:\home\guap\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 Z:\home\guap\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 Z:\home\guap\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\guap\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\guap\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\guap\framework\web\CController.php(292): CFilterChain->run()
+#16 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('view')
+#18 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('user/user/view/...')
+#19 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 Z:\home\guap\www\index.php(39): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/user/user/view/id/3
+HTTP_REFERER=http://guap/user/
+---
+2012/05/20 18:23:35 [error] [php] include(eSystem.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guap\framework\YiiBase.php:418)
+Stack trace:
+#0 Z:\home\guap\www\protected\modules\user\UserModule.php(147): spl_autoload_call()
+#1 Z:\home\guap\www\protected\modules\user\components\UserIdentity.php(35): encrypting()
+#2 Z:\home\guap\www\protected\modules\user\models\UserLogin.php(52): UserIdentity->authenticate()
+#3 Z:\home\guap\framework\validators\CInlineValidator.php(43): UserLogin->authenticate()
+#4 Z:\home\guap\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#5 Z:\home\guap\framework\base\CModel.php(158): CInlineValidator->validate()
+#6 Z:\home\guap\www\protected\modules\user\controllers\LoginController.php(37): UserLogin->validate()
+#7 Z:\home\guap\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#8 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 Z:\home\guap\framework\web\CController.php(287): LoginController->runAction()
+#10 Z:\home\guap\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#11 Z:\home\guap\framework\web\CWebApplication.php(276): LoginController->run()
+#12 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Z:\home\guap\www\index.php(39): CWebApplication->run()
+REQUEST_URI=/index.php/user/login
+2012/05/20 18:24:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'guap.users_profiles' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `users_profiles`.
+2012/05/20 18:24:53 [error] [exception.CDbException] exception 'CDbException' with message 'The table "users_profiles" for active record class "Profile" cannot be found in the database.' in Z:\home\guap\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 Z:\home\guap\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Profile))
+#1 Z:\home\guap\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Profile')
+#2 Z:\home\guap\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 Z:\home\guap\www\protected\modules\user\controllers\RegistrationController.php(73): CActiveRecord->__construct()
+#4 Z:\home\guap\framework\web\actions\CInlineAction.php(50): RegistrationController->actionRegistration()
+#5 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 Z:\home\guap\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#9 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('user/registrati...')
+#10 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 Z:\home\guap\www\index.php(39): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/user/registration
+---
+2012/05/20 18:30:19 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xep" is not defined.' in Z:\home\guap\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\guap\framework\base\CModule.php(106): CComponent->__get('xep')
+#1 Z:\home\guap\www\protected\modules\user\controllers\RegistrationController.php(105): CModule->__get('xep')
+#2 Z:\home\guap\framework\web\actions\CInlineAction.php(50): RegistrationController->actionRegistration()
+#3 Z:\home\guap\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 Z:\home\guap\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 Z:\home\guap\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\guap\framework\web\CWebApplication.php(276): CController->run('')
+#7 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('user/registrati...')
+#8 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 Z:\home\guap\www\index.php(39): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/user/registration
+HTTP_REFERER=http://guap/index.php/user/registration
+---
+2012/05/20 18:39:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "post/index".' in Z:\home\guap\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\guap\framework\web\CWebApplication.php(135): CWebApplication->runController('post/index')
+#1 Z:\home\guap\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\guap\www\index.php(39): CApplication->run()
+#3 {main}
+REQUEST_URI=/post/index
+HTTP_REFERER=http://guap/
+---
